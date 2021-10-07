@@ -1,6 +1,6 @@
 import subprocess
 from telegram.ext import Updater
-updater = Updater(token='2049153904:AAFuFHI6pFrVeEvLSioHumLb85W9OAESFCA', use_context=True)
+updater = Updater(token='TOKEN', use_context=True)
 dispatcher = updater.dispatcher
 import logging
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',level=logging.INFO)
